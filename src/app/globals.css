@@ -24,3 +24,48 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Colores personalizados */
+:root {
+  --neon-green: #00FF00;
+  --lime-green: #32FF32;
+  --electric-yellow: #FFFF00;
+  --vibrant-orange: #FF8000;
+  --hot-pink: #FF0080;
+  --magenta: #FF00FF;
+}
+
+/* Utility classes personalizadas */
+.bg-neon-green { background-color: var(--neon-green); }
+.bg-lime-green { background-color: var(--lime-green); }
+.bg-electric-yellow { background-color: var(--electric-yellow); }
+.bg-vibrant-orange { background-color: var(--vibrant-orange); }
+.bg-hot-pink { background-color: var(--hot-pink); }
+.bg-magenta { background-color: var(--magenta); }
+
+.text-neon-green { color: var(--neon-green); }
+.text-lime-green { color: var(--lime-green); }
+.text-electric-yellow { color: var(--electric-yellow); }
+.text-vibrant-orange { color: var(--vibrant-orange); }
+.text-hot-pink { color: var(--hot-pink); }
+.text-magenta { color: var(--magenta); }
+
+.border-neon-green { border-color: var(--neon-green); }
+.border-lime-green { border-color: var(--lime-green); }
+.border-electric-yellow { border-color: var(--electric-yellow); }
+.border-vibrant-orange { border-color: var(--vibrant-orange); }
+.border-hot-pink { border-color: var(--hot-pink); }
+.border-magenta { border-color: var(--magenta); }
+
+/* Gradientes personalizados */
+.bg-vibrant-gradient {
+  background: linear-gradient(180deg, #00FF00 0%, #32FF32 20%, #FFFF00 40%, #FF8000 70%, #FF0080 90%, #FF00FF 100%);
+}
+
+.bg-header-gradient {
+  background: linear-gradient(90deg, #00FF00 0%, #32FF32 25%, #FFFF00 50%, #FF8000 75%, #FF0080 100%);
+}
+
+.bg-countdown-gradient {
+  background: linear-gradient(135deg, #00FF00 0%, #FFFF00 50%, #FF0080 100%);
+}
