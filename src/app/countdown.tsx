@@ -20,7 +20,7 @@ export default function Countdown() {
   const [mounted, setMounted] = useState(false)
 
   // Fecha objetivo: 24 de julio del 2025 a las 00:00:00
-  const targetDate = new Date('2025-07-25T00:00:00').getTime()
+  const targetDate = new Date('2025-07-26T00:00:00').getTime()
 
   const calculateTimeLeft = (): TimeLeft => {
     const now = new Date().getTime()
@@ -76,7 +76,7 @@ export default function Countdown() {
         {/* Event Date Info */}
         <div className="mb-6 sm:mb-8">
           <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-neon-green mb-2">
-            COMING JULY 25, 2025
+            COMING JULY 26, 2025
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-white/80">
           </p>
