@@ -251,12 +251,14 @@ export default function Countdown() {
         </div>
 
         {/* CTA Button */}
-        {/* <div className="mt-8 sm:mt-12">
-          <button className="relative group px-6 py-3 sm:px-8 sm:py-4 md:px-12 md:py-6 text-base sm:text-lg md:text-xl font-black text-black bg-vibrant-gradient rounded-full hover:scale-105 transition-all duration-300 shadow-2xl">
-            <span className="relative z-10">GET TICKETS NOW</span>
-            <div className="absolute inset-0 bg-white/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          </button>
-        </div> */}
+        { <div className="mt-8 sm:mt-12">
+          <a href="https://distrokid.com/hyperfollow/pinedacntryblackdollar/mveef" target="_blank" rel="noopener noreferrer">
+            <button className="relative group px-6 py-3 sm:px-8 sm:py-4 md:px-12 md:py-6 text-base sm:text-lg md:text-xl font-black text-black bg-vibrant-gradient rounded-full hover:scale-105 transition-all duration-300 shadow-2xl">
+              <span className="relative z-10">PRE-SAVE NOW!</span>
+              <div className="absolute inset-0 bg-white/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </button>
+          </a>
+        </div> }
       </div>
 
       {/* Background Effects - Responsive */}
