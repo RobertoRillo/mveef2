@@ -62,7 +62,7 @@ export default function Header() {
                 HOME
               </a>
               <a 
-                href="/" 
+                href="/events" 
                 className="text-black font-bold hover:text-white transition-colors drop-shadow-md py-2 px-3 rounded-lg hover:bg-white/20 text-center flex-1"
                 onClick={() => setIsMenuOpen(false)}
               >
