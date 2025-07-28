@@ -41,7 +41,7 @@ export default function Header() {
             <a href="/" className="text-black font-bold hover:text-white transition-colors drop-shadow-md">
               HOME
             </a>
-            <a href="/" className="text-black font-bold hover:text-white transition-colors drop-shadow-md">
+            <a href="/events" className="text-black font-bold hover:text-white transition-colors drop-shadow-md">
               EVENTS
             </a>
             <a href="" className="text-black font-bold hover:text-white transition-colors drop-shadow-md">
